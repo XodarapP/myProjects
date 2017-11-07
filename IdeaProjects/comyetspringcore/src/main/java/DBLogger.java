@@ -22,7 +22,7 @@ public class DBLogger implements EventLogger {
     private class DBLoggerMapper implements RowMapper<ThirdDB>{
 
         @Override
-        public ThirdDB mapRow(ResultSet rs, int rowNum) throws SQLException {
+        public ThirdDB  mapRow(ResultSet rs, int rowNum) throws SQLException {
             ThirdDB thirdDB = new ThirdDB();
             thirdDB.setFirstRow(rs.getInt("int"));
             thirdDB.setSecondRow(rs.getString("string"));
