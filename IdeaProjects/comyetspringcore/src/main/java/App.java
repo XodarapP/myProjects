@@ -20,13 +20,13 @@ public class App {
         ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
         App app = (App) context.getBean("app");
 
-        Event event = (Event) context.getBean("event");
+        Event event = (Event) context.getBean("event 1");
         app.logEvent(null, event,"Some NULL message for user 1");
 
-        event = (Event) context.getBean("event");
+        event = (Event) context.getBean("event 2");
         app.logEvent(EventType.INFO, event,"Some INFO message for user 2");
 
-        event = (Event) context.getBean("event");
+        event = (Event) context.getBean("event 3");
         app.logEvent(EventType.ERROR, event,"Some ERROR message for user 3");
 
         DBLogger dbLogger = (DBLogger) context.getBean("dblogger");
