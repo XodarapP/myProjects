@@ -33,7 +33,7 @@ public class FileEventLogger implements EventLogger {
             try {
                 file.createNewFile();
             } catch (Exception e) {
-                throw new IllegalArgumentException("Can't create file", e);
+                throw new IllegalArgumentException("Can't create file ", e);
             }
         }
     }

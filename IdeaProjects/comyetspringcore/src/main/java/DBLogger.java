@@ -15,7 +15,7 @@ public class DBLogger implements EventLogger {
 
     @Override
     public void logEvent(Event event) {
-        jdbcTemplate.query("SELECT * FROM [dbo].[third]", new DBLoggerMapper());
+        jdbcTemplate.query(" SELECT * FROM [dbo].[third]", new DBLoggerMapper());
 
     }
 

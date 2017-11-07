@@ -20,9 +20,9 @@ public class ThirdDB {
 
     @Override
     public String toString() {
-        return "ThirdDB{" +
-                "int=" + firstRow +
-                ", string='" + secondRow + '\'' +
+        return "Таблица ThirdDB{" +
+                "поле int=" + firstRow +
+                ",поле string='" + secondRow + '\'' +
                 '}';
     }
 }
