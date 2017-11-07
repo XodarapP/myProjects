@@ -15,7 +15,7 @@ public class CacheFileEventLogger extends FileEventLogger {
         cache.add(event);
 
         if (cache.size() == cacheSize){
-            writeEventsFromCache();
+            writeEventsFromCache( );
             cache.clear();
         }
     }

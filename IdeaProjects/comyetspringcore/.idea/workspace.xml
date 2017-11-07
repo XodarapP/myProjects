@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00e9f5f6-a261-45bc-bc76-4d0d6ddb3a40" name="Default" comment="" />
+    <list default="true" id="00e9f5f6-a261-45bc-bc76-4d0d6ddb3a40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" afterPath="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ThirdDB.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThirdDB.java">
+      <file leaf-file-name="CacheFileEventLogger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -65,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/main/java/EventLogger.java" />
         <option value="$PROJECT_DIR$/src/main/resources/loggers.xml" />
         <option value="$PROJECT_DIR$/src/main/java/CombinedEventLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" />
         <option value="$PROJECT_DIR$/src/main/resources/clientProperties.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/clientProperties.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/client.properties" />
@@ -78,9 +80,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/dbConnect.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConsoleEventLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DBLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileEventLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThirdDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DBLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" />
       </list>
     </option>
   </component>
@@ -112,7 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +168,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,16 +376,24 @@
       <workItem from="1509871544864" duration="4539000" />
       <workItem from="1509876778488" duration="2404000" />
       <workItem from="1510032992579" duration="28000" />
-      <workItem from="1510033528572" duration="851000" />
+      <workItem from="1510033528572" duration="2255000" />
+      <workItem from="1510061015936" duration="128000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1510034620266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510034620266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59672000" />
+    <option name="totallyTimeSpent" value="61204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -391,20 +402,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32232705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17569546" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18381241" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39779875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19033675" sideWeight="0.50630915" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39779875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -445,6 +456,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.5.RELEASE/spring-jdbc-4.1.5.RELEASE-sources.jar!/org/springframework/jdbc/support/AbstractFallbackSQLExceptionTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -886,38 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DBLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1510034296045" expanded="true" signature="7:156" ph="..." />
-            <marker date="1510034296045" expanded="false" signature="292:303" ph=" { " />
-            <marker date="1510034296045" expanded="false" signature="336:342" ph=" }" />
-            <marker date="1510034296045" expanded="true" signature="397:487" ph="{...}" />
-            <marker date="1510034296045" expanded="true" signature="428:455" ph="SELECT * FRO... " />
-            <marker date="1510034296045" expanded="true" signature="434:455" ph="SELECT * FRO... " />
-            <marker date="1510034296045" expanded="true" signature="436:455" ph="INSERT INTO " />
-            <marker date="1510034296045" expanded="true" signature="551:899" ph="{...}" />
-            <marker date="1510034296045" expanded="true" signature="648:893" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <marker date="1509703814980" expanded="false" signature="7:50" ph="..." />
-            <marker date="1509703814980" expanded="true" signature="235:357" ph="{...}" />
-            <marker date="1509703814980" expanded="true" signature="396:543" ph="{...}" />
-            <marker date="1509703814980" expanded="true" signature="584:671" ph="{...}" />
-            <marker date="1509703814980" expanded="true" signature="698:782" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CombinedEventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -948,6 +924,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1510034372054" expanded="false" signature="108:119" ph=" { " />
+            <marker date="1510034372054" expanded="false" signature="135:141" ph=" }" />
+            <marker date="1510034372054" expanded="false" signature="184:195" ph=" { " />
+            <marker date="1510034372054" expanded="false" signature="220:226" ph=" }" />
+            <marker date="1510034372054" expanded="false" signature="260:271" ph=" { " />
+            <marker date="1510034372054" expanded="false" signature="288:294" ph=" }" />
+            <marker date="1510034372054" expanded="false" signature="342:353" ph=" { " />
+            <marker date="1510034372054" expanded="false" signature="380:386" ph=" }" />
+            <marker date="1510034372054" expanded="true" signature="431:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DBLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1510034591907" expanded="true" signature="7:156" ph="..." />
+            <marker date="1510034591907" expanded="false" signature="292:303" ph=" { " />
+            <marker date="1510034591907" expanded="false" signature="336:342" ph=" }" />
+            <marker date="1510034591907" expanded="true" signature="397:487" ph="{...}" />
+            <marker date="1510034591907" expanded="true" signature="428:455" ph="SELECT * FRO... " />
+            <marker date="1510034591907" expanded="true" signature="434:455" ph="SELECT * FRO... " />
+            <marker date="1510034591907" expanded="true" signature="436:455" ph="INSERT INTO " />
+            <marker date="1510034591907" expanded="true" signature="551:900" ph="{...}" />
+            <marker date="1510034591907" expanded="true" signature="649:894" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1509876075323" expanded="false" signature="7:139" ph="..." />
+            <marker date="1509876075323" expanded="false" signature="319:330" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="340:346" ph=" }" />
+            <marker date="1509876075323" expanded="false" signature="377:388" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="401:407" ph=" }" />
+            <marker date="1509876075323" expanded="false" signature="435:446" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="457:463" ph=" }" />
+            <marker date="1509876075323" expanded="false" signature="499:510" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="525:531" ph=" }" />
+            <marker date="1509876075323" expanded="true" signature="576:669" ph="{...}" />
+            <marker date="1509876075323" expanded="false" signature="696:707" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="719:725" ph=" }" />
+            <marker date="1509876075323" expanded="false" signature="761:772" ph=" { " />
+            <marker date="1509876075323" expanded="false" signature="789:795" ph=" }" />
+            <marker date="1509876075323" expanded="true" signature="840:1016" ph="{...}" />
+            <marker date="1509876075323" expanded="true" signature="1070:1182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
