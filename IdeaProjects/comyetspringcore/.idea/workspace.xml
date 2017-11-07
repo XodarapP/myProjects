@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00e9f5f6-a261-45bc-bc76-4d0d6ddb3a40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" afterPath="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dbConnect.properties" afterPath="$PROJECT_DIR$/src/main/resources/dbConnect.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CacheFileEventLogger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
+      <file leaf-file-name="dbConnect.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dbConnect.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="42">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -77,13 +77,13 @@
         <option value="$PROJECT_DIR$/src/main/java/aspect/LoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/appContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/dbConnect.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/ConsoleEventLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileEventLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThirdDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/DBLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/dbConnect.properties" />
       </list>
     </option>
   </component>
@@ -377,7 +377,7 @@
       <workItem from="1509876778488" duration="2404000" />
       <workItem from="1510032992579" duration="28000" />
       <workItem from="1510033528572" duration="2255000" />
-      <workItem from="1510061015936" duration="128000" />
+      <workItem from="1510061015936" duration="361000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1510034620266</created>
@@ -386,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510034620266</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test commit">
+      <created>1510061152271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510061152271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61204000" />
+    <option name="totallyTimeSpent" value="61437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -402,7 +409,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32232705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -790,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/client.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aspect/LoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -811,35 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/loggers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <marker date="1509698503101" expanded="true" signature="97:1344" ph="..." />
-            <marker date="1509698503101" expanded="true" signature="856:914" ph="..." />
-            <marker date="1509698503101" expanded="true" signature="1026:1076" ph="..." />
-            <marker date="1509698503101" expanded="true" signature="1141:1335" ph="..." />
-            <marker date="1509698503101" expanded="true" signature="1167:1323" ph="..." />
-            <marker date="1509698503101" expanded="true" signature="1186:1296" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbConnect.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.5.RELEASE/spring-jdbc-4.1.5.RELEASE-sources.jar!/org/springframework/jdbc/support/AbstractFallbackSQLExceptionTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -847,50 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <marker date="1509873562848" expanded="true" signature="97:3174" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1163:1454" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1199:1379" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1218:1359" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1537:1593" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1669:1962" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="1752:1775" ph="net.sourceforge.jtds.jdbc.Driver" />
-            <marker date="1509873562848" expanded="true" signature="1815:1826" ph="jdbc:jtds:sqlserver://HOMEPC:1433/SQLEXPRESS/info" />
-            <marker date="1509873562848" expanded="true" signature="1871:1887" ph="reader" />
-            <marker date="1509873562848" expanded="true" signature="1932:1948" ph="123" />
-            <marker date="1509873562848" expanded="true" signature="2005:2063" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="2104:2255" ph="..." />
-            <marker date="1509873562848" expanded="false" signature="2138:2143" ph="1" />
-            <marker date="1509873562848" expanded="false" signature="2179:2186" ph="John Smith" />
-            <marker date="1509873562848" expanded="false" signature="2231:2241" ph="Hello Here!" />
-            <marker date="1509873562848" expanded="true" signature="2288:2488" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="2519:2655" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="2849:3001" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="2875:2945" ph="..." />
-            <marker date="1509873562848" expanded="true" signature="3114:3164" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConsoleEventLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <marker date="1509698620879" expanded="true" signature="109:120" ph=" { " />
-            <marker date="1509698620879" expanded="true" signature="157:163" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,6 +869,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1510061031429" expanded="false" signature="7:50" ph="..." />
+            <marker date="1510061031429" expanded="true" signature="235:357" ph="{...}" />
+            <marker date="1510061031429" expanded="true" signature="396:544" ph="{...}" />
+            <marker date="1510061031429" expanded="true" signature="585:672" ph="{...}" />
+            <marker date="1510061031429" expanded="true" signature="699:783" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConsoleEventLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <marker date="1509698620879" expanded="true" signature="109:120" ph=" { " />
+            <marker date="1509698620879" expanded="true" signature="157:163" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DBLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -981,10 +937,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CacheFileEventLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="14">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <marker date="1509873562848" expanded="true" signature="97:3174" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1163:1454" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1199:1379" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1218:1359" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1537:1593" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1669:1962" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="1752:1775" ph="net.sourceforge.jtds.jdbc.Driver" />
+            <marker date="1509873562848" expanded="true" signature="1815:1826" ph="jdbc:jtds:sqlserver://HOMEPC:1433/SQLEXPRESS/info" />
+            <marker date="1509873562848" expanded="true" signature="1871:1887" ph="reader" />
+            <marker date="1509873562848" expanded="true" signature="1932:1948" ph="123" />
+            <marker date="1509873562848" expanded="true" signature="2005:2063" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="2104:2255" ph="..." />
+            <marker date="1509873562848" expanded="false" signature="2138:2143" ph="1" />
+            <marker date="1509873562848" expanded="false" signature="2179:2186" ph="John Smith" />
+            <marker date="1509873562848" expanded="false" signature="2231:2241" ph="Hello Here!" />
+            <marker date="1509873562848" expanded="true" signature="2288:2488" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="2519:2655" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="2849:3001" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="2875:2945" ph="..." />
+            <marker date="1509873562848" expanded="true" signature="3114:3164" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/loggers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <marker date="1509698503101" expanded="true" signature="97:1344" ph="..." />
+            <marker date="1509698503101" expanded="true" signature="856:914" ph="..." />
+            <marker date="1509698503101" expanded="true" signature="1026:1076" ph="..." />
+            <marker date="1509698503101" expanded="true" signature="1141:1335" ph="..." />
+            <marker date="1509698503101" expanded="true" signature="1167:1323" ph="..." />
+            <marker date="1509698503101" expanded="true" signature="1186:1296" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbConnect.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
