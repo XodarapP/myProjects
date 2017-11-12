@@ -13,6 +13,22 @@
     <context:annotation-config/>
     <context:component-scan base-package="com.springinaction.juggers"/>
 
+    <bean id="audience" class="com.springinaction.juggers.Audience"/>
+
+    <aop:config>
+        <!-- Определение совета, который будет внедрятся в точки сопряжения -->
+        <aop:aspect ref="audience">
+            <!-- Определение среза множества точек сопряжения -->
+            <aop:pointcut id="performance" expression="execution(* com.springinaction.juggers.performers.Performer.perform(..))"/>
+
+            <!-- Определение точек сопряжения и советов -->
+            <aop:before pointcut-ref="performance" method="takeSeats"/> <!-- performance - ссылка на именованый срез -->
+            <aop:before pointcut-ref="performance" method="turnOffCellPhones"/>
+            <aop:after-returning pointcut-ref="performance" method="applaud"/>
+            <aop:after-throwing pointcut-ref="performance" method="demandRefund"/>
+        </aop:aspect>
+    </aop:config>
+
     <bean id="ticket" class="com.springinaction.juggers.Ticket" scope="prototype"/>
 
     <bean id="poeticJuggler" class="com.springinaction.juggers.performers.PoeticJuggler">
@@ -31,11 +47,13 @@
 
     <!-- Использование @autowire для автоматического связывания -->
     <bean id="kenny" class="com.springinaction.juggers.performers.Instrumentalist"
-          p:song="Jingle Bells"/>
+          p:song="Jingle Bells"
+          p:instrument-ref="guitar"/>
 
     <!-- Использвание коллекции map для заполнения instruments -->
     <bean id="guitar" class="com.springinaction.juggers.instruments.Guitar"></bean>
     <bean id="harmonica" class="com.springinaction.juggers.instruments.Harmonica"/>
+
     <bean id="hank" class="com.springinaction.juggers.performers.OneManBand">
         <property name="instruments">
             <map>
@@ -48,8 +66,8 @@
 
     <!-- Использование ссылки на объект kenny.song в объекте karl  -->
     <bean id="karl" class="com.springinaction.juggers.performers.Instrumentalist">
-        <property name="song" value="#{kenny.song}"/>
-        <property name="instrument" ref="instrument"/>
+        <property name="song" value="Jingle Bells"/>
+        <property name="instrument" ref="guitar"/>
     </bean>
 
 </beans>
