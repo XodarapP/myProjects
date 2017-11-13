@@ -8,7 +8,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AnnotationMagician implements MindReader {
     private String thoughts;
-    
+
     @Pointcut("execution(* com.springinaction.juggers.performers.Thinker.thinkOfSomething(String)) && args(thoughts)")
 
     public void thinking(String thoughts){
