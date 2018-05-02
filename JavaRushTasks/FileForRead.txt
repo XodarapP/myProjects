@@ -1,6 +1,0 @@
-abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
-abcdefghijklmnopqrstuvwxyz
-
-
-C:\JavaRushTasks\FileForRead.txt
-C:\JavaRushTasks\FileForWrite.txt
