@@ -20,8 +20,8 @@ public class Item {
     @Override
     public String toString() {
         return " Item{" +
-                "itemId = " + itemId +
-                ", groupId = " + groupId +
+                "itemId: = " + itemId +
+                ", groupId: = " + groupId +
                 '}';
     }
 }
