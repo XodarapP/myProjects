@@ -62,7 +62,7 @@ public class App {
 
         handler.printAllItemsInMapAfterRemoving();
 
-        System.out.println("\n" + "Time remaining: " + (System.currentTimeMillis() - timeStart) + "ms");
+        System.out.println("\n" + "Time remaining: " + (System.currentTimeMillis() - timeStart) + "ms.");
         System.out.println("main thread is finished");
     }
 }

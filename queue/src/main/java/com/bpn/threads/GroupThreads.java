@@ -14,7 +14,7 @@ public class GroupThreads extends Thread {
         System.out.println(Thread.currentThread().getName() + " started");
             try {
                 while (!handler.getEmpty()) {
-                    Thread.sleep(500);
+                    Thread.sleep(100);
                     handler.removeItemFromMap();
                 }
             }

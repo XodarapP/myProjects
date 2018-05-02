@@ -12,7 +12,7 @@ public class Handler {
     private Boolean isEmpty = false;
     private List<Item> itemArrayList;
     private List<Integer> listOfAllGroups;
-    private volatile int removingItem = 0;
+    private int removingItem = 0;
 
     public Handler(int groupsCount, int itemsCount) {
         this.groupsCount = groupsCount;
@@ -80,7 +80,7 @@ public class Handler {
             System.out.println(Thread.currentThread().getName() + " found empty map, and finished work.");
         }
         else {
-            System.out.println(LocalTime.now() + " processing in map : " + Thread.currentThread().getName() + " [item]: " + sortedItemsMap.get(listOfAllGroups.get(removingItem)).get(0));
+            System.out.println(LocalTime.now() + " processing in map:" + Thread.currentThread().getName() + " [item]: " + sortedItemsMap.get(listOfAllGroups.get(removingItem)).get(0));
             sortedItemsMap.get(listOfAllGroups.get(removingItem)).remove(0);
 
             if (sortedItemsMap.get(listOfAllGroups.get(removingItem)).size() == 0){
