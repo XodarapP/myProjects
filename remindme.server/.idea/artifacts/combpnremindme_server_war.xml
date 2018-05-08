@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="combpnremindme.server:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.bpn.remindme.server-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="combpnremindme.server:war exploded" />
+    </root>
+  </artifact>
+</component>
