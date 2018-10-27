@@ -42,6 +42,6 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 	}
 
 	public void addInterceptors(List<EndpointInterceptor> interceptors) {
-		interceptors.add(new Interceptor());
+		interceptors.add(new WsInterceptor());
 	}
 }

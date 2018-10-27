@@ -9,10 +9,12 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 import javax.servlet.http.HttpSession;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Endpoint
 public class CountryEndpoint {
     private static final String NAMESPACE_URI = "http://spring.io/guides/gs-producing-web-service";
+    private AtomicInteger integer = new AtomicInteger();
 
     private CountryRepository countryRepository;
 
@@ -26,7 +28,7 @@ public class CountryEndpoint {
     public GetCountryResponse getCountry(@RequestPayload GetCountryRequest request) {
         HttpSession session = Utils.session();
         String countryName = request.getName();
-        session.setAttribute("countryName", countryName);
+        session.setAttribute("countryName" + integer.incrementAndGet(), countryName);
         GetCountryResponse response = new GetCountryResponse();
         response.setCountry(countryRepository.findCountry(request.getName()));
         return response;
